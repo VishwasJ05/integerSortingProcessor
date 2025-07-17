@@ -3,10 +3,13 @@ This project implements a simple RISC-V-based processor using Verilog, designed 
 
 The processor has been tested with the following programs, written in RISC-V machine code:
 
-1.  **Insertion Sort**
-2.  **Bubble Sort**
-3.  **Maximum Element Finder**
-4.  **Loop Counter**
+●  **Insertion Sort**
+
+●  **Bubble Sort**
+
+●  **Maximum Element Finder**
+
+●  **Loop Counter**
 
 The instruction set includes R-type (`add`, `sub`), I-type (`addi`, `lw`), S-type (`sw`), B-type (`beq`, `blt`, `bge`), and J-type (`jal`). Functional highlights include register updates, ALU operations, memory accesses, and branching logic. These can be tracked cycle-by-cycle using the provided testbench.
 
